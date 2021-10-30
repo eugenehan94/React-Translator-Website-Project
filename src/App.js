@@ -1,24 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+/*Translation app API site: https://libretranslate.de/docs/ */
+/*This page will be use for React router */
+/*Home page, price page, page to use app */
+/*This project will be using the Material UI 5 */
+import React from "react";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
+
+/*React component */
+import Home from "./pages/Home";
+import Api from "./pages/Api";
+import Price from "./pages/Price";
+import Translate from "./pages/Translate";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route path="/api">
+          <Api />
+        </Route>
+        <Route path="/price">
+          <Price />
+        </Route>
+        <Route path="/translate">
+          <Translate />
+        </Route>
+      </Switch>
+    </Router>
   );
 }
 
