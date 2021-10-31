@@ -14,7 +14,6 @@ import {
 
 const Translate = () => {
   const {
-    inputText,
     languagesList,
     loading,
     setInputText,
@@ -46,7 +45,7 @@ const Translate = () => {
               marginBottom: 4,
               fontSize: 10,
             }}
-            placeholder="Please enter your text here"
+            placeholder="Please enter your text to translate here"
           />
         </Box>
 
@@ -58,7 +57,7 @@ const Translate = () => {
           ) : (
             <NativeSelect
               onChange={languageKey}
-              sx={{ fontSize: { md: "2rem", sm: "1rem" } }}
+              sx={{ fontSize: { md: "1.5rem", sm: "1rem" } }}
             >
               {languagesList.map((language, id) => {
                 return <option key={id}>{language.name}</option>;

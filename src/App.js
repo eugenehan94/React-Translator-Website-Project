@@ -8,7 +8,7 @@ import { HashRouter as Router, Switch, Route } from "react-router-dom";
 /*React component */
 import Home from "./pages/Home";
 import Api from "./pages/Api";
-import Price from "./pages/Price";
+// import Price from "./pages/Price";
 import Translate from "./pages/Translate";
 
 function App() {
@@ -21,9 +21,9 @@ function App() {
         <Route path="/api">
           <Api />
         </Route>
-        <Route path="/price">
+        {/* <Route path="/price">
           <Price />
-        </Route>
+        </Route> */}
         <Route path="/translate">
           <Translate />
         </Route>

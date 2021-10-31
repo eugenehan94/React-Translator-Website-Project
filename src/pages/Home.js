@@ -1,13 +1,19 @@
 import React from "react";
 
+/*React components import*/
 import Navbar from "../components/Navbar";
+import Hero from "../components/Home/Hero";
+
+/*Material UI imports*/
+import { Box } from "@mui/material";
 
 const Home = () => {
   return (
-    <div>
+    <Box sx={{ backgroundColor: "#FFE5B4" }}>
       <Navbar />
-      <h1>Home</h1>
-    </div>
+
+      <Hero />
+    </Box>
   );
 };
 

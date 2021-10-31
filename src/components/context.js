@@ -1,5 +1,5 @@
 /*Context API */
-import React, { useState, useEffect, useContext } from "react";
+import React, { useState, useEffect, useContext, useCallback } from "react";
 import axios from "axios";
 
 const AppContext = React.createContext();
@@ -12,7 +12,7 @@ const AppProvider = ({ children }) => {
   const [resultText, setResultText] = useState("");
   const [loading, setLoading] = useState(true);
 
-  const getLanguageSource = () => {
+  const getLanguageSource = useCallback(() => {
     axios
       .post("https://libretranslate.de/detect", {
         q: inputText,
@@ -27,7 +27,7 @@ const AppProvider = ({ children }) => {
           );
         }
       });
-  };
+  }, [inputText]);
 
   const languageKey = (data) => {
     setSelectedLanguage(data.target.value);
@@ -64,7 +64,7 @@ const AppProvider = ({ children }) => {
       setLoading(false);
     });
     getLanguageSource();
-  }, [inputText]);
+  }, [inputText, getLanguageSource]);
 
   return (
     <AppContext.Provider
@@ -76,7 +76,6 @@ const AppProvider = ({ children }) => {
         languageKey,
         translateText,
         resultText,
-        setInputText,
       }}
     >
       {children}
