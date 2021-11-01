@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/React-Translator-Website-Project/static/js/main.aee5344e.chunk.js",
+    "main.js.map": "/React-Translator-Website-Project/static/js/main.aee5344e.chunk.js.map",
+    "runtime-main.js": "/React-Translator-Website-Project/static/js/runtime-main.738e77b0.js",
+    "runtime-main.js.map": "/React-Translator-Website-Project/static/js/runtime-main.738e77b0.js.map",
+    "static/js/2.60364df1.chunk.js": "/React-Translator-Website-Project/static/js/2.60364df1.chunk.js",
+    "static/js/2.60364df1.chunk.js.map": "/React-Translator-Website-Project/static/js/2.60364df1.chunk.js.map",
+    "static/js/3.9387f8c4.chunk.js": "/React-Translator-Website-Project/static/js/3.9387f8c4.chunk.js",
+    "static/js/3.9387f8c4.chunk.js.map": "/React-Translator-Website-Project/static/js/3.9387f8c4.chunk.js.map",
+    "index.html": "/React-Translator-Website-Project/index.html",
+    "static/js/2.60364df1.chunk.js.LICENSE.txt": "/React-Translator-Website-Project/static/js/2.60364df1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.738e77b0.js",
+    "static/js/2.60364df1.chunk.js",
+    "static/js/main.aee5344e.chunk.js"
+  ]
+}
