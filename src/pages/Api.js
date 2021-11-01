@@ -1,12 +1,12 @@
 import React from "react";
 
 import Navbar from "../components/Navbar";
-
+import Hero from "../components/Api/Hero";
 const Api = () => {
   return (
     <div>
       <Navbar />
-      <h1>Api</h1>
+      <Hero />
     </div>
   );
 };

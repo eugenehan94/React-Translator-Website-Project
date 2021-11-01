@@ -12,6 +12,17 @@ const AppProvider = ({ children }) => {
   const [resultText, setResultText] = useState("");
   const [loading, setLoading] = useState(true);
 
+  /*Modal for Navbar - smaller screen*/
+  const [open, setOpen] = useState(false);
+
+  const handleClickOpen = () => {
+    setOpen(true);
+  };
+
+  const handleClose = () => {
+    setOpen(false);
+  };
+
   const getLanguageSource = useCallback(() => {
     axios
       .post("https://libretranslate.de/detect", {
@@ -76,6 +87,9 @@ const AppProvider = ({ children }) => {
         languageKey,
         translateText,
         resultText,
+        open,
+        handleClickOpen,
+        handleClose,
       }}
     >
       {children}
