@@ -11,10 +11,10 @@ const AppProvider = ({ children }) => {
   const [selectedLanguage, setSelectedLanguage] = useState("");
   const [resultText, setResultText] = useState("");
   const [loading, setLoading] = useState(true);
-
   /*Modal for Navbar - smaller screen*/
   const [open, setOpen] = useState(false);
-
+  /*States for the plan on the Home page */
+  const [select, setSelect] = useState("individual");
   const handleClickOpen = () => {
     setOpen(true);
   };
@@ -90,6 +90,8 @@ const AppProvider = ({ children }) => {
         open,
         handleClickOpen,
         handleClose,
+        select,
+        setSelect,
       }}
     >
       {children}

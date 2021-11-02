@@ -23,7 +23,12 @@ const Translate = () => {
   } = useGlobalContext();
 
   return (
-    <Box sx={{ backgroundColor: "#FFE5B4", paddingBottom: 3 }}>
+    <Box
+      sx={{
+        backgroundColor: "#FFE5B4",
+        paddingBottom: 3,
+      }}
+    >
       <Navbar />
       <Container>
         <Typography

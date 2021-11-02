@@ -37,7 +37,7 @@ const Hero = () => {
               backgroundColor: "#0f2b46",
               color: "#fff",
               padding: "0.75rem 1.5rem",
-              marginRight: "1.5rem",
+              marginRight: { md: "1.5rem", xs: 0 },
               "&:hover": { backgroundColor: "#2f87db" },
             }}
           >

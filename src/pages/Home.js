@@ -4,6 +4,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Home/Hero";
 import About from "../components/Home/About";
+import Plan from "../components/Home/Plan";
 /*Material UI imports*/
 import { Box } from "@mui/material";
 
@@ -13,6 +14,7 @@ const Home = () => {
       <Navbar />
       <Hero />
       <About />
+      <Plan />
     </Box>
   );
 };
