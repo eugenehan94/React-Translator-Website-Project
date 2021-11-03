@@ -5,6 +5,9 @@ import Navbar from "../components/Navbar";
 import Hero from "../components/Home/Hero";
 import About from "../components/Home/About";
 import Plan from "../components/Home/Plan";
+import Companies from "../components/Home/Companies";
+import Article from "../components/Home/Article";
+import Testimonials from "../components/Home/Testimonials";
 /*Material UI imports*/
 import { Box } from "@mui/material";
 
@@ -15,6 +18,9 @@ const Home = () => {
       <Hero />
       <About />
       <Plan />
+      <Companies />
+      <Article />
+      <Testimonials />
     </Box>
   );
 };
