@@ -19,7 +19,7 @@ const PlanDeveloper = () => {
       <Box
         sx={{
           border: "1px solid rgba(224, 224, 224, 1)",
-          margin: " 0 3rem",
+          margin: { md: "0 3rem", xs: "0 0.5rem" },
         }}
       >
         <TableContainer>

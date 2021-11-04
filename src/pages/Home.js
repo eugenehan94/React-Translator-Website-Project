@@ -8,6 +8,7 @@ import Plan from "../components/Home/Plan";
 import Companies from "../components/Home/Companies";
 import Article from "../components/Home/Article";
 import Testimonials from "../components/Home/Testimonials";
+import Footer from "../components/Footer";
 /*Material UI imports*/
 import { Box } from "@mui/material";
 
@@ -21,6 +22,7 @@ const Home = () => {
       <Companies />
       <Article />
       <Testimonials />
+      <Footer />
     </Box>
   );
 };
