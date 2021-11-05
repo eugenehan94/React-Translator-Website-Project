@@ -35,7 +35,10 @@ const NavbarSmaller = () => {
             <Link to="/" onClick={handleClose}>
               <TranslateIcon sx={{ color: "#000" }} />
             </Link>
-            <CloseIcon onClick={handleClose} sx={{ color: "#000" }} />
+            <CloseIcon
+              onClick={handleClose}
+              sx={{ color: "#000", ":hover": { cursor: "pointer" } }}
+            />
           </Toolbar>
         </AppBar>
         <Box
