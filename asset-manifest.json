@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "/React-Translator-Website-Project/static/js/main.90f140c1.chunk.js",
-    "main.js.map": "/React-Translator-Website-Project/static/js/main.90f140c1.chunk.js.map",
-    "runtime-main.js": "/React-Translator-Website-Project/static/js/runtime-main.12abe591.js",
-    "runtime-main.js.map": "/React-Translator-Website-Project/static/js/runtime-main.12abe591.js.map",
-    "static/js/2.bddb01d3.chunk.js": "/React-Translator-Website-Project/static/js/2.bddb01d3.chunk.js",
-    "static/js/2.bddb01d3.chunk.js.map": "/React-Translator-Website-Project/static/js/2.bddb01d3.chunk.js.map",
-    "static/js/3.83d9a592.chunk.js": "/React-Translator-Website-Project/static/js/3.83d9a592.chunk.js",
-    "static/js/3.83d9a592.chunk.js.map": "/React-Translator-Website-Project/static/js/3.83d9a592.chunk.js.map",
+    "main.js": "/React-Translator-Website-Project/static/js/main.079f5d22.chunk.js",
+    "main.js.map": "/React-Translator-Website-Project/static/js/main.079f5d22.chunk.js.map",
+    "runtime-main.js": "/React-Translator-Website-Project/static/js/runtime-main.3c91ed12.js",
+    "runtime-main.js.map": "/React-Translator-Website-Project/static/js/runtime-main.3c91ed12.js.map",
+    "static/js/2.58087c74.chunk.js": "/React-Translator-Website-Project/static/js/2.58087c74.chunk.js",
+    "static/js/2.58087c74.chunk.js.map": "/React-Translator-Website-Project/static/js/2.58087c74.chunk.js.map",
+    "static/js/3.3313e309.chunk.js": "/React-Translator-Website-Project/static/js/3.3313e309.chunk.js",
+    "static/js/3.3313e309.chunk.js.map": "/React-Translator-Website-Project/static/js/3.3313e309.chunk.js.map",
     "index.html": "/React-Translator-Website-Project/index.html",
-    "static/js/2.bddb01d3.chunk.js.LICENSE.txt": "/React-Translator-Website-Project/static/js/2.bddb01d3.chunk.js.LICENSE.txt",
+    "static/js/2.58087c74.chunk.js.LICENSE.txt": "/React-Translator-Website-Project/static/js/2.58087c74.chunk.js.LICENSE.txt",
     "static/media/beiersdorf.458acdd8.svg": "/React-Translator-Website-Project/static/media/beiersdorf.458acdd8.svg",
     "static/media/cartoon.ca845340.svg": "/React-Translator-Website-Project/static/media/cartoon.ca845340.svg",
     "static/media/db.32f36d88.svg": "/React-Translator-Website-Project/static/media/db.32f36d88.svg",
@@ -22,8 +22,8 @@
     "static/media/speechBubbleYellow.cd76ecba.svg": "/React-Translator-Website-Project/static/media/speechBubbleYellow.cd76ecba.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.12abe591.js",
-    "static/js/2.bddb01d3.chunk.js",
-    "static/js/main.90f140c1.chunk.js"
+    "static/js/runtime-main.3c91ed12.js",
+    "static/js/2.58087c74.chunk.js",
+    "static/js/main.079f5d22.chunk.js"
   ]
 }
