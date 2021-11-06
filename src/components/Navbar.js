@@ -23,100 +23,98 @@ const Navbar = () => {
       >
         <Toolbar>
           <Box sx={{ display: { sm: "flex", xs: "none" } }}>
-            <Box sx={{ display: "flex", alignItems: "center", marginRight: 4 }}>
-              <Typography
-                sx={{
-                  "& a": {
-                    textDecoration: "none",
+            <Box
+              sx={{
+                display: "flex",
+                alignItems: "center",
+                marginRight: 3,
+                "& a": {
+                  textDecoration: "none",
+                },
+              }}
+            >
+              <Link to="/">
+                <Box sx={{ marginRight: 4, "& img": { width: "100%" } }}>
+                  <img src={navbarSvg} alt="navbar icon" />
+                </Box>
+              </Link>
+              <Link to="/">
+                <Box
+                  sx={{
                     color: "#000",
-                    fontSize: "1.8rem",
-                    display: "flex",
-                    alignItems: "center",
-                  },
-                }}
-              >
-                <Link to="/">
-                  {" "}
-                  <Box sx={{ marginRight: 4, "& img": { width: "100%" } }}>
-                    <img src={navbarSvg} alt="navbar icon" />
-                  </Box>
-                  <Box
-                    sx={{
-                      borderBottom: "2px solid #fff",
-                      letterSpacing: "0.4rem",
-                      ":hover": {
-                        borderBottom: "2px solid #006494",
-                      },
-                    }}
+                    borderBottom: "2px solid #fff",
+                    transition: "0.3s linear",
+                    ":hover": { borderBottom: "2px solid #006494" },
+                  }}
+                >
+                  <Typography
+                    sx={{ fontSize: "2rem", letterSpacing: "0.4rem" }}
                   >
                     Home
-                  </Box>
-                </Link>
-              </Typography>
+                  </Typography>
+                </Box>
+              </Link>
             </Box>
             <Box
               sx={{
-                marginRight: 4,
                 display: "flex",
                 alignItems: "center",
+                marginRight: 3,
+                "& a": {
+                  textDecoration: "none",
+                  color: "#000",
+                },
               }}
             >
-              <Typography
-                sx={{
-                  "& a": {
-                    textDecoration: "none",
-                    color: "#000",
-                    fontSize: "1.8rem",
-                  },
-                }}
-              >
-                <Link to="/api">
-                  <Box
-                    sx={{
-                      borderBottom: "2px solid #fff",
-                      letterSpacing: "0.4rem",
-                      ":hover": {
-                        borderBottom: "2px solid #006494",
-                      },
-                    }}
+              <Link to="/api">
+                <Box
+                  sx={{
+                    borderBottom: "2px solid #fff",
+                    letterSpacing: "0.4rem",
+                    transition: "0.3s linear",
+                    ":hover": {
+                      borderBottom: "2px solid #006494",
+                    },
+                  }}
+                >
+                  <Typography
+                    sx={{ fontSize: "2rem", letterSpacing: "0.4rem" }}
                   >
                     API
-                  </Box>
-                </Link>
-              </Typography>
+                  </Typography>
+                </Box>
+              </Link>
             </Box>
-            {/* <Typography sx={{ "& a": { textDecoration: "none", color: "#000" }}}>
-            <Link to="/price">Price</Link>
-          </Typography> */}
+
             <Box
               sx={{
                 display: "flex",
                 alignItems: "center",
+                marginRight: 3,
+                "& a": {
+                  textDecoration: "none",
+                  color: "#000",
+                },
               }}
             >
-              <Typography
-                sx={{
-                  "& a": {
-                    textDecoration: "none",
-                    color: "#000",
-                    fontSize: "1.8rem",
-                  },
-                }}
-              >
-                <Link to="/translate">
-                  <Box
-                    sx={{
-                      borderBottom: "2px solid #fff",
-                      letterSpacing: "0.4rem",
-                      ":hover": {
-                        borderBottom: "2px solid #006494",
-                      },
-                    }}
+              <Link to="/translate">
+                <Box
+                  sx={{
+                    borderBottom: "2px solid #fff",
+                    letterSpacing: "0.4rem",
+                    transition: "0.3s linear",
+                    ":hover": {
+                      borderBottom: "2px solid #006494",
+                    },
+                  }}
+                >
+                  <Typography
+                    sx={{ fontSize: "2rem", letterSpacing: "0.4rem" }}
                   >
                     Translate
-                  </Box>
-                </Link>
-              </Typography>
+                  </Typography>
+                </Box>
+              </Link>
             </Box>
           </Box>
           <Box

@@ -75,7 +75,19 @@ const About = () => {
                   sx={{ fontSize: "3rem", marginRight: 1, color: "#037171" }}
                 />
 
-                <Typography sx={{ fontWeight: "bold" }}>Glossary</Typography>
+                <Typography sx={{ fontWeight: "bold" }}>
+                  Glossary{" "}
+                  <span
+                    style={{
+                      backgroundColor: "#037171",
+                      color: "#fff",
+                      padding: "0.4rem",
+                      borderRadius: "10px",
+                    }}
+                  >
+                    Pro
+                  </span>
+                </Typography>
               </Box>
               <Typography>
                 Specify how words and phrases are translated by creating your
@@ -135,7 +147,17 @@ const About = () => {
                   sx={{ fontSize: "3rem", marginRight: 1, color: "#037171" }}
                 />
                 <Typography sx={{ fontWeight: "bold" }}>
-                  Monthly cost control
+                  Monthly cost control{" "}
+                  <span
+                    style={{
+                      backgroundColor: "#037171",
+                      color: "#fff",
+                      padding: "0.4rem",
+                      borderRadius: "10px",
+                    }}
+                  >
+                    Pro
+                  </span>
                 </Typography>
               </Box>
               <Typography>
@@ -198,7 +220,17 @@ const About = () => {
                   sx={{ fontSize: "3rem", marginRight: 1, color: "#037171" }}
                 />
                 <Typography sx={{ fontWeight: "bold" }}>
-                  Advanced data security
+                  Advanced data security{" "}
+                  <span
+                    style={{
+                      backgroundColor: "#037171",
+                      color: "#fff",
+                      padding: "0.4rem",
+                      borderRadius: "10px",
+                    }}
+                  >
+                    Pro
+                  </span>
                 </Typography>
               </Box>
               <Typography>
