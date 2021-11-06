@@ -47,7 +47,7 @@ const AppProvider = ({ children }) => {
   const translateText = (e) => {
     e.preventDefault();
     if (!inputText) {
-      console.log("Please enter input");
+      // console.log("Please enter input");
       return;
     }
     getLanguageSource();
