@@ -1,20 +1,24 @@
 {
   "files": {
-    "main.js": "/React-Translator-Website-Project/static/js/main.079f5d22.chunk.js",
-    "main.js.map": "/React-Translator-Website-Project/static/js/main.079f5d22.chunk.js.map",
+    "main.js": "/React-Translator-Website-Project/static/js/main.7be22ede.chunk.js",
+    "main.js.map": "/React-Translator-Website-Project/static/js/main.7be22ede.chunk.js.map",
     "runtime-main.js": "/React-Translator-Website-Project/static/js/runtime-main.3c91ed12.js",
     "runtime-main.js.map": "/React-Translator-Website-Project/static/js/runtime-main.3c91ed12.js.map",
-    "static/js/2.58087c74.chunk.js": "/React-Translator-Website-Project/static/js/2.58087c74.chunk.js",
-    "static/js/2.58087c74.chunk.js.map": "/React-Translator-Website-Project/static/js/2.58087c74.chunk.js.map",
+    "static/js/2.8ef162f9.chunk.js": "/React-Translator-Website-Project/static/js/2.8ef162f9.chunk.js",
+    "static/js/2.8ef162f9.chunk.js.map": "/React-Translator-Website-Project/static/js/2.8ef162f9.chunk.js.map",
     "static/js/3.3313e309.chunk.js": "/React-Translator-Website-Project/static/js/3.3313e309.chunk.js",
     "static/js/3.3313e309.chunk.js.map": "/React-Translator-Website-Project/static/js/3.3313e309.chunk.js.map",
     "index.html": "/React-Translator-Website-Project/index.html",
-    "static/js/2.58087c74.chunk.js.LICENSE.txt": "/React-Translator-Website-Project/static/js/2.58087c74.chunk.js.LICENSE.txt",
+    "static/js/2.8ef162f9.chunk.js.LICENSE.txt": "/React-Translator-Website-Project/static/js/2.8ef162f9.chunk.js.LICENSE.txt",
     "static/media/beiersdorf.458acdd8.svg": "/React-Translator-Website-Project/static/media/beiersdorf.458acdd8.svg",
     "static/media/cartoon.ca845340.svg": "/React-Translator-Website-Project/static/media/cartoon.ca845340.svg",
+    "static/media/computerWithDesign.962a64d9.svg": "/React-Translator-Website-Project/static/media/computerWithDesign.962a64d9.svg",
     "static/media/db.32f36d88.svg": "/React-Translator-Website-Project/static/media/db.32f36d88.svg",
     "static/media/elsevier.6d27da71.svg": "/React-Translator-Website-Project/static/media/elsevier.6d27da71.svg",
     "static/media/fujitsu.a9e8acbe.svg": "/React-Translator-Website-Project/static/media/fujitsu.a9e8acbe.svg",
+    "static/media/hexagonFilled.f2fa5121.svg": "/React-Translator-Website-Project/static/media/hexagonFilled.f2fa5121.svg",
+    "static/media/hexagonOutline.6a024754.svg": "/React-Translator-Website-Project/static/media/hexagonOutline.6a024754.svg",
+    "static/media/languageSpeechBubble.880b8b5b.svg": "/React-Translator-Website-Project/static/media/languageSpeechBubble.880b8b5b.svg",
     "static/media/navbarIcon.526676fb.svg": "/React-Translator-Website-Project/static/media/navbarIcon.526676fb.svg",
     "static/media/speechBubbleBlue.cbef3183.svg": "/React-Translator-Website-Project/static/media/speechBubbleBlue.cbef3183.svg",
     "static/media/speechBubbleGreen.c2f82150.svg": "/React-Translator-Website-Project/static/media/speechBubbleGreen.c2f82150.svg",
@@ -23,7 +27,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.3c91ed12.js",
-    "static/js/2.58087c74.chunk.js",
-    "static/js/main.079f5d22.chunk.js"
+    "static/js/2.8ef162f9.chunk.js",
+    "static/js/main.7be22ede.chunk.js"
   ]
 }
