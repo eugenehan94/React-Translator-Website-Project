@@ -1,13 +1,14 @@
 # React Translator Website
+### https://eugenehan94.github.io/React-Translator-Website-Project/#/
 
-https://eugenehan94.github.io/React-Translator-Website-Project/#/
-
-## Home Page
+## Home Page Demo
 ![TranslatorHomePage](https://user-images.githubusercontent.com/59939048/140628477-e738ddda-7159-4c13-88e8-f5bb74ea6f76.gif)
 
-## API Page
+## API Page Demo
 ![TranslatorApiPage](https://user-images.githubusercontent.com/59939048/140628637-0c2da514-facc-48cb-9728-0ac57e8842b5.gif)
 
+## Translate Page Demo
+![TranslatorTranslatePage](https://user-images.githubusercontent.com/59939048/140628814-a732d924-4706-4c02-810e-d076f8b3bd3a.gif)
 
 -----------------------------------------------------------------------------------------------------------
 # Getting Started with Create React App
