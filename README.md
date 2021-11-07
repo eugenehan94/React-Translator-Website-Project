@@ -1,8 +1,10 @@
+# React Translator Website
+
 https://eugenehan94.github.io/React-Translator-Website-Project/#/
 
-
+## Home Page
 ![TranslatorHomePage](https://user-images.githubusercontent.com/59939048/140628477-e738ddda-7159-4c13-88e8-f5bb74ea6f76.gif)
-
+#### gif taken on November 11 2021
 
 -----------------------------------------------------------------------------------------------------------
 # Getting Started with Create React App
